@@ -95,6 +95,39 @@
     background-color: black;
     color:white;
 }
+.bt05{
+    height: 60px;
+    width: 220px;
+    background-color: hsl(68, 14%, 23%);
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+.bt05:hover{
+    height: 60px;
+    width: 220px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.bt06{
+    height: 60px;
+    width: 220px;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    border: none;
+   
+}
+.bt06:hover{
+    height: 60px;
+    width: 220px;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    border: none;
+    border:1px  dotted black
+}
 
 .colgray{
     color: gray;
