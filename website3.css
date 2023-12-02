@@ -40,6 +40,7 @@
 
 .tx{
     text-align: center;
+
 }
 
 .bt01{
@@ -128,6 +129,22 @@
     border: none;
     border:1px  dotted black
 }
+.bt07{
+    height: 50px;
+    width: 200px;
+    background-color: hsl(68, 14%, 23%);
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+.bt07:hover{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
 
 .colgray{
     color: gray;
@@ -152,6 +169,14 @@
 .coly:hover{
     color: yellow;
 }
+.cogl{
+    color:hsl(68, 14%, 23%);
+   
+}
+.cogl:hover{
+    color:hsl(66, 10%, 38%);
+    
+}
 .bglw{
     background-color: #e4e6e7;
 }
@@ -170,6 +195,8 @@
 .bgcgray{
     background-color: gray;
 }
+
+
 
 .fs{
     font-size: 25vw !important;
@@ -192,6 +219,9 @@
 .fs025{
     font-size: 25px !important;
 }
+.fs10{
+    font-size: 100px !important;
+}
 
 .psr{
     position: relative;bottom: 15px;
@@ -201,7 +231,7 @@
     border-radius: 100%;
 }
 .brr1{
-    border-radius: 100px;
+    border-radius: 100%;
 }
 
 .brr2{
@@ -273,6 +303,10 @@
 }
 .bimg11:hover{
     background-image: url('img/24.jpg');background-size:110% 110% ;background-position: center;transition: 1s;
+}
+
+.font1{
+    font-family: 'Poppins', sans-serif;
 }
 
 
