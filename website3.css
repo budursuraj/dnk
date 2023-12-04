@@ -198,8 +198,15 @@
 .bgcgray{
     background-color: gray;
 }
+.loder{
+    display: inline;
+    margin-top: 200px;
+}
 
-
+.loder:hover{
+    display: block;
+    margin-top: 200px;
+}
 
 .fs{
     font-size: 25vw !important;
